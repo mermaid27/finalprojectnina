@@ -16,6 +16,11 @@
      <link rel="stylesheet" href="contact.html">
      <link rel="stylesheet" href="sercvices.html">
      <link rel="stylesheet" href="blog.html">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js">
+     <script src="https://kit.fontawesome.com/dd91acea00.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" 
+     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     
     <script defer src="script.js"></script>
 </head>
@@ -28,7 +33,7 @@
                     <span class="IDM">IDM </span> <span class="trans"> TRANSLATION </span>
                 </h1>
           
-            <nav> 
+            <nav class="nav"> 
                 <ul class="ulbox">
                     <li>
                         <a class="nav-li" href="index.html" target="_blank">home page</a>
@@ -41,13 +46,18 @@
                     </li>
                     
                     <li>
-                        <a class="nav-li" href="onlinetrans.html" target="_blank">online translation</a>
+                        <a class="nav-li" href="online.html" target="_blank">online translation</a>
                     </li>
                     <li>
                         <a class="nav-li" href="blog.html" target="_blank">blog</a>
                     </li>
                     <li>
                         <a class="nav-li" href="contact.html" target="_blank">contact</a>
+                    </li>
+                    <li>
+                        <div class="bar">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
                     </li>
                 </ul>
             </nav>
@@ -56,16 +66,16 @@
     </header>
 
   
-
     
 <section class="slider-bg">
+
         <div class="text-professional">
             <img class="world-map" src="styles/images/world-map-dream.jpg" alt="world map">
             <h2 class="h2"> Proffesional Translation Services</h2>
-            <p class="text-all-languages">In All Languages You Need</p>
+            <p  class="text-all-languages">In All Languages You Need</p>
         
         </div>
-         < class="div-wraper">
+        
             <div class="div1">
                 <h3 class="text-we-are">
                     WE ARE AT YOUR SERVICE WITH OUR FAST,
@@ -81,31 +91,26 @@
                 
                 
                     <div>
-                        <h4 class="h4-quadro quadro1">CLIENTS FROM OVER 50+ COUNTRIES</h4>
+                        <h4 class="h4-quadro quadro1 reveal">CLIENTS FROM OVER 50+ COUNTRIES</h4>
                     </div>
                     <div>
-                        <h4 class="h4-quadro quadro2">OVER 100 LANGUAGE PAIRS</h4>
+                        <h4 class="h4-quadro quadro2 reveal">OVER 100 LANGUAGE PAIRS</h4>
                     </div>
                
                 
                     <div>
-                        <h4 class="h4-quadro quadro3">OVER 25 YEARS OF EXPERIENCE</h4>
+                        <h4 class="h4-quadro quadro3 reveal">OVER 25 YEARS OF EXPERIENCE</h4>
                     </div>
                     <div>
-                        <h4 class="h4-quadro quadro4">OVER 4000 TRANSLATORS</h4>
+                        <h4 class="h4-quadro quadro4 reveal">OVER 4000 TRANSLATORS</h4>
                     </div>
 
                 
-              
+                
             
 
          </div>
-     <div class="slider-wraper">
-        <button class="arrow arrow-left" id="arrow-left"></button>
-        <button class="arrow arrow-right" id="arrow-right"></button> 
-        <div class="slider-content" id="slider-content">
-
-        </div>
+  
    
 
      
@@ -113,35 +118,156 @@
 </section> 
     
 
-<section>
+<!-- <section>
     <form action="" id="registrationForm"></form>
+</section> -->
+<section>
+    <div class="trans-service-wraper">
+        <div class="trans-service">
+            <h2 class="h2trans-service">TRANSLATION SERVICES</h2>
+            <div class="h"></div>
+            <p class="p-trans-tech">
+                Thanks to our translation technologies, we translate cost-effectively
+                 and deliver your 
+                translations more quickly while maximizing the quality.
+            </p>
+
+            </div>
+
+    <div>
+       
+        <div class="flex">
+            <div class="div-six"> <h3 class="h3-six"> TECHNICAL
+                TRANSLATION </h3></div>
+            <div class="div-six"> <h3 class="h3-six">NOTARIZED
+                TRANSLATION</h3 class="h3-six"></div>
+            <div class="div-six"> <h3 class="h3-six">CONTRACT
+                TRANSLATION</h3></div>
+           
+        </div>
+        <div class="flex">
+            <div class="div-six"> <h3 class="h3-six">MEDICAL
+                TRANSLATION</h3></div>
+            <div class="div-six"> <h3 class="h3-six">INTERPRETATION</h3></div>
+            <div class="div-six"> <h3 class="h3-six">WEBSITE
+                LOCALIZATION</h3></div>
+            
+        </div>
+    </div>
+
+        
+ </div>
+    
+            
+
+        
+   
 </section>
+
+
+
+
+<section class='section-reg'>
+ <h2 class="h4-title-online">ONLINE TRANSLATION SERVICE</h2>
+ <div class="reg-wraper"> 
+    
+    <div> 
+    <h2 class="h2-title-online">Reliable and Accurate Translations in 70+ Languages</h2>
+    <p class="DPT-text">Translations you can trust by bilingual subject matter experts around the world.
+
+      </p>
+      <p class="DPT-text">  Submit your enquiry and get a quote in 2 hours.</p>
+</div>
+
+   <div>  <h3 class="h3-title-online">Tell Us About Your Project</h3>
+    <form action="" id="registrationForm" method="post">
+        <div class="registration-div">
+           <input type="text" name="username" id="usernameField" placeholder="enter your name"> 
+           <span class="error-text" id="error_username"> </span>
+        </div>
+        <div class="registration-div">
+            <input type="text" name="username" id="usernameField" placeholder="enter your E-Mail"> 
+            <span class="error-text" id="error_username"> </span>
+         </div>
+         <div class="registration-div">
+            <input type="text" name="username" id="usernameField" placeholder="enter your phone number"> 
+            <span class="error-text" id="error_username"> </span>
+         </div>
+        <div class="registration-div">
+            <input type="password" name="password" id="passwordField" placeholder="enter your password"> 
+            <span class="error-text" id="error_password"> </span>
+        </div>
+         <div class="registration-div">
+            <input type="password" name="password" id="passwordField" placeholder="repeat your password"> 
+            <span class="error-text" id="error_password"> </span>
+        </div>
+        <div class="registration-div">
+            <input type="text" name="username" id="usernameField" placeholder="choose languages"> 
+            <span class="error-text" id="error_username"> </span>
+         </div>
+         <div class="registration-div">
+            <input type="checkbox" name="agree" id="agreeTerms" placeholder="enter your password"> 
+             <label for="agreeTerms">I Agree Terms and Conditions</label>
+             <span class="error-text" id="error_agree"></span>
+            </div>
+            <div class="registration-div"> 
+        <button  type="submit">Upload File</button>
+            </div>
+            <div class="registration-div"> 
+                <button  type="submit">SUBMIT</button>
+                    </div>
+      </div>
+     </div>   
+    </form>
+</section> 
+
+
+
+<div id="api-users"> </div> 
+
 
 
 <footer class="footer">
     <div class="footer-wraper">
         <div class="footer1">
-            <h5> IDM TRANSLATION</h5>
-            <p>
+            <h5 class="h5-footer"> IDM TRANSLATION</h5>
+            <p class="footer-p">
                 IDM Translation was aware of the lack of “translation management” in the translation industry and, 
                 thus, started to offer services to fill this gap in 2012.
             </p>
 
         </div>
-        <div class="footer2"> 
-            <h5> IDM TRANSLATION</h5>
-            <p>
-               <span> Address </span>: Pekini Ave 2, Tbilisi, Georgia
-            </p>
-            <p>
-               <span> Phone </span>: 444 19 94
-            </p>
-            <p>
-                <span> E-Mail</span>: info[@]idmtranslation.com
+        <div class="footer1">
+            <h5 class="h5-footer"> INDUSTRIES </h5>
+            <p class="footer-p">
+                
             </p>
 
         </div>
 
+        <div class="footer1"> 
+            <h5 class="h5-footer"> CONTACT INFO</h5>
+            <p class="footer-p footer-p1">
+               <span class="offer"> Address </span>: Pekini Ave 2, Tbilisi, Georgia
+            </p>
+            <p class="footer-p footer-p1">
+               <span class="offer"> Phone </span>: +444 19 94
+            </p>
+            <p class="footer-p footer-p1">
+                <span class="offer"> E-Mail</span>: info[@]idmtranslation.com
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="icon-wraper">
+       <div>  <i class="fa-brands fa-facebook"></i> </a></div>
+       <div> <i class="fa-brands fa-youtube"></i> </div>
+       <div><i class="fa-brands fa-instagram"></i></div>
+       <div><i class="fa-brands fa-twitter"></i></div>
+       <div><i class="fa-brands fa-linkedin"></i></div>
+       
     </div>
 
 </footer>
