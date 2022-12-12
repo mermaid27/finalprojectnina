@@ -1,0 +1,52 @@
+@media  (max-width:1070px) {
+    .world-map {
+        
+        height: auto;
+    }
+    .nav-li {
+      font-size: 12px;   
+    } 
+    .h1 {
+        font-size: 15px;
+    }
+    
+   .h2{
+    font-size: 2rem;
+   }
+   .text-all-languages {
+    font-size: 2rem; 
+   }
+   .text-we-are {
+
+    top:50%; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px; }
+    .contact-us2 {
+    
+        width: 150px;
+        height: 40px;
+        font-size: 15px;
+        top: 70%;
+
+}
+.h4-quadro {
+    top: 70%;
+    font-size: 20px;
+}
+.img-girl {
+    width: 400px;
+    height: auto;
+}
+.contact-us  {
+   
+    
+    width: 150px;
+    height: 45px;
+    font-size: 20px;
+   
+    padding: 10px;
+    
+    top: 60%;
+    right: 48%;
+}
+}
